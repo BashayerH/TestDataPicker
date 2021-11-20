@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ItemListFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="97dp"
+        android:layout_margin="10sp"
+        android:background="#F3EDED"
+        android:backgroundTint="#F3E6E6"
+        android:padding="10sp">
+
+        <TextView
+            android:id="@+id/dr_name"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="264dp"
+            android:fontFamily="@font/actor"
+            android:hint="Dr.Name"
+            android:textAlignment="center"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="@font/actor"
+            android:text="the next date in: "
+            android:textColor="#331C5C"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/createDate"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="236dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/actor"
+            android:hint="creat Date"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/dececription"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/actor"
+            android:hint="description"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
